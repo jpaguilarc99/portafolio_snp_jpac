@@ -1,104 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Juan Pablo Aguilar</title>
+<html>
 
-    <link href="https://fonts.googleapis.com/css?family=Nunito|Pacifico&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <title>Juan Pablo Aguilar</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="icon" href="images/my-icon.png">
+</head>
 
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="css/master.css">
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud-with-sun.png" alt="cloud">
+    <div class="title-text">
+      <h1>I'm Juan.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+    </div>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
 
-  </head>
-  <body>
-    <header>
-        <h1>I'm Juan</h1>
-        <h2>a <span>pro</span>grammer.</h2>
-        <div class="imgs-header">
-          <img class="img-cloud" src="images/cloud.png" alt="header-cloudy">
-          <img class="img-mountain" src="images/mountain.png" alt="header-mountain">
-          <img class="img-cloud-with-sun" src="images/cloud-with-sun.png" alt="header-cloud-with-sun">
-        </div>
-    </header>
-
-    <section class="about-me" >
-      <img class="img-about-me" src="images/about-me.jpg" alt="about-me-juanpa">
-
+  <div class="middle-container">
+    <div class="profile">
+      <img class="my-picture" src="images/about-me.jpg" alt="juan-profile-img">
       <h2>Hello.</h2>
+      <p class="intro">I am a Backend and Machine Learning Developer. I'm passionate about everything related to technology. I ❤️ videogames and play the drums.</p>
+    </div>
+    <hr>
 
-      <p>
-        I am a full stack developer. This is my portfolio, enjoy!
-      </p>
-
-      <hr>
-    </section>
-
-    <section class="my-skills" >
-      <h2>My skills</h2>
-
+    <div class="skills">
+      <h2>My Skills.</h2>
       <div class="skill-row">
-          <img class="img-code left" src="images/code.png" alt="skill-code">
+        <img class="code-img" src="images/coding.png" alt="code-img">
 
-          <h3>Font End</h3>
-          <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-          </p>
-      </div>
+        <h3>AI & Data Science</h3>
+        <p class="code-skill-description">I have developed computer vision models for image reconstruction applied to physical sciences. Also, I have built several Machine Learning models to predict crop and payment behaviors in credit risk.</p>
 
-      <div class="skill-row">
-          <img class="img-javascript right" src="images/javascript.png" alt="skill-javascript">
-
-          <h3>Javascript</h3>
-          <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-          </p>
-      </div>
-
-      <div class="skill-row">
-          <img class="img-test left" src="images/test.png" alt="skill-test">
-
-          <h3>Scrum</h3>
-          <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-          </p>
       </div>
       <div class="skill-row">
-          <img class="img-interview right" src="images/interview.png" alt="skill-code">
+        <img class="backend-img" src="images/backend.png" alt="backend-img">
 
-          <h3>Talk to people</h3>
-          <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-          </p>
+        <h3>Backend Development</h3>
+        <p class="code-secskill-description">I am currently strengthening my skills in Back-end development by building web applications in multiple frameworks such as Django.</p>
+
       </div>
+    </div>
+    <hr>
 
-      <hr>
-    </section>
-
-    <section class="contact-me" >
+    <div class="contact-me">
       <h2>Get In Touch</h2>
+      <h3>If you are interested in my profile, don't hesitate to contact me.</h3>
+      <p class="contact-message">If you're looking for a developer with a width experience using Python for Data Science and Backend Development, you are at the right place!</p>
+      <a class="btn" href="mailto:jpaguilarc99@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
 
-      <h3>Lorem Ipsum is simply dummy text</h3>
 
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry <br>
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-      </p>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/juan-pablo-aguilar-calle-700401163/">LinkedIn</a>
+    <a class="footer-link" href="https://instagram.com/jpaguilarc99">Instagram</a>
+    <a class="footer-link" href="https://github.com/jpaguilarc99">Github</a>
+    <p class="copyright">© 2022 Juan Pablo Aguilar Calle - My Site.</p>
+  </div>
+</body>
 
-      <button type="button" name="button">CONTACT ME</button>
-
-    </section>
-
-    <footer>
-        <div class="links">
-          <a href="#">LinkdIn</a>
-          <a href="#">Twitter</a>
-          <a href="#">Website</a>
-        </div>
-
-        <p>
-          2022 &#169 Juan Pablo Aguilar Calle
-        </p>
-    </footer>
-  </body>
 </html>
