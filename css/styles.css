@@ -124,15 +124,18 @@ div{
 }
 
 .github {
-  height: 3em;
+  height: 1em;
+  width: 1em;
 }
 
 .instagram {
-  height: 3em;
+  height: 1em;
+  width: 1em;
 }
 
 .linkedin {
-  height: 3em;
+  height: 1em;
+  width: 1em;
 }
 
 /* Clases de texto */
